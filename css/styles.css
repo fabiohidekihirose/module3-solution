@@ -1,0 +1,72 @@
+* {
+    font-family: 'Londrina Solid', cursive, sans-serif;
+}
+body {
+    background-color: blue;
+}
+
+/*Header*/
+.navbar {
+    border: 0;
+    border-bottom: solid 2px white;
+    background-color: orange;
+    border-radius: 0;
+}
+.container {
+    margin: 0;
+}
+.navbar-default .navbar-brand a{
+    color: white;
+    font-size: 35px;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
+}
+.navbar-default .navbar-toggle {
+    background-color: orange;
+    border-color: white;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: rgb(161, 119, 41);
+}
+
+.navbar-nav {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+#nav-list li a {
+    background-color: orange;
+    color: white;
+    border: solid 2px;
+    width: 100%;
+    font-size: 1.2em;
+}
+#nav-list li a:hover {
+    background: rgb(161, 119, 41);
+}
+/*End header*/
+
+div#title {
+    border: solid 1px white;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    background-color: #bebebe;
+}
+h1 {
+    margin-bottom: 20px;
+}
+h2 {
+    margin-top: 10px;
+}
+div > section {
+    border: solid 1px white;
+    margin: 10px;
+    margin-bottom: 20px;
+    background-color: #bebebe;
+}
+p {
+    margin: 10px;
+}
